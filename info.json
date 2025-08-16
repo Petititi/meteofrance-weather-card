@@ -1,0 +1,1 @@
+{"name": "Météo France Weather Card", "description": "A Lovelace card showing temperature and rain forecasts for the next 24 hours from Météo France", "version": "1.0.0", "documentation": "https://github.com/yourusername/meteofrance-weather-card", "codeowners": ["@yourusername"], "requirements": [], "domain": "lovelace", "dependencies": [], "platforms": []}
