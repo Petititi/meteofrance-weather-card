@@ -1,1 +1,23 @@
-{"name": "24h MeteoFrance", "description": "A Lovelace card showing temperature and rain forecasts for the next 24 hours from Météo France", "version": "1.0.0", "documentation": "https://github.com/Petititi/meteofrance-weather-card", "codeowners": ["@Petititi"], "requirements": [], "domain": "lovelace", "dependencies": [], "platforms": []}
+
+{
+  "name": "24h MeteoFrance",
+  "description": "A Lovelace card showing temperature and rain forecasts for the next 24 hours from Météo France",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Petititi/meteofrance-weather-card",
+  "codeowners": ["@Petititi"],
+  "requirements": [],
+  "domain": "lovelace",
+  "dependencies": [],
+  "platforms": [],
+  "homeassistant": "2023.1.0",
+  "persistent_directory": "",
+  "iot_class": "cloud_polling",
+  "render_mode": "manual",
+  "url": "https://github.com/Petititi/meteofrance-weather-card",
+  "bug_report": "https://github.com/Petititi/meteofrance-weather-card/issues",
+  "feature_request": "https://github.com/Petititi/meteofrance-weather-card/issues",
+  "funding": [],
+  "country": ["FR"],
+  "stage": "stable",
+  "categories": ["Dashboard"]
+}

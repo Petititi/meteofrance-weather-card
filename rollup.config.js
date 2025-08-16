@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 
 export default {
-  input: 'src/meteofrance-weather-card.ts',
+  input: 'src/24h-meteofrance.ts',
   output: {
     file: 'dist/24h-meteofrance.js',
     format: 'es',

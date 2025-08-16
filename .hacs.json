@@ -1,0 +1,19 @@
+
+{
+  "repository": "Petititi/meteofrance-weather-card",
+  "name": "24h MeteoFrance",
+  "description": "A Lovelace card showing temperature and rain forecasts for the next 24 hours from Météo France",
+  "category": "lovelace",
+  "type": "plugin",
+  "render_mode": "manual",
+  "url": "https://github.com/Petititi/meteofrance-weather-card",
+  "main": "dist/24h-meteofrance.js",
+  "filename": "24h-meteofrance.js",
+  "version": "1.0.0",
+  "author": "Petititi",
+  "license": "MIT",
+  "topics": ["weather", "meteo-france", "forecast", "dashboard"],
+  "homeassistant": "2023.1.0",
+  "country": ["FR"],
+  "stage": "stable"
+}

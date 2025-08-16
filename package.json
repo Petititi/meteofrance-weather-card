@@ -29,5 +29,21 @@
     "@webcomponents/webcomponentsjs": "^2.8.0"
   },
   "author": "Petititi",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/Petititi/meteofrance-weather-card#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petititi/meteofrance-weather-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Petititi/meteofrance-weather-card/issues"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "weather",
+    "meteo-france",
+    "forecast",
+    "dashboard"
+  ]
 }
