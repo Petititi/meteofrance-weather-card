@@ -6,7 +6,7 @@ import typescript from '@rollup/plugin-typescript';
 export default {
   input: 'src/meteofrance-weather-card.ts',
   output: {
-    file: 'dist/meteofrance-weather-card.js',
+    file: 'dist/24h-meteofrance.js',
     format: 'es',
     sourcemap: true,
   },

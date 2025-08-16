@@ -1,9 +1,9 @@
 {
-  "name": "meteofrance-weather-card",
+  "name": "24h-meteofrance",
   "version": "1.0.0",
   "description": "A Lovelace card showing temperature and rain forecasts from Météo France",
-  "main": "dist/meteofrance-weather-card.js",
-  "types": "dist/meteofrance-weather-card.d.ts",
+  "main": "dist/24h-meteofrance.js",
+  "types": "dist/24h-meteofrance.d.ts",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",

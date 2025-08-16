@@ -23,7 +23,7 @@ interface WeatherData {
   // Other fields may be present but are not used in this implementation
 }
 
-@customElement('meteofrance-weather-card')
+@customElement('24h-meteofrance')
 class MeteofranceWeatherCard extends LitElement {
   @property() public hass!: HomeAssistant;
   @property() public config!: MeteofranceWeatherCardConfig;

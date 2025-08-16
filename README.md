@@ -1,6 +1,6 @@
 
 
-# Météo France Weather Card
+# 24h MeteoFrance
 
 A Lovelace card for Home Assistant that displays temperature and rain forecasts for the next 24 hours from Météo France.
 
@@ -13,18 +13,18 @@ A Lovelace card for Home Assistant that displays temperature and rain forecasts 
 ## Installation
 
 1. **Install via HACS**:
-   - Search for "Météo France Weather Card" in the HACS store
+   - Search for "24h MeteoFrance" in the HACS store
    - Click "Download this repository" and follow the installation instructions
 
 2. **Manual installation**:
    - Download the repository
-   - Copy the `meteofrance-weather-card.js` file to your `www` directory
+   - Copy the `24h-meteofrance.js` file to your `www` directory
    - Add the card to your Lovelace dashboard
 
 ## Configuration
 
 ```yaml
-type: 'custom:meteofrance-weather-card'
+type: 'custom:24h-meteofrance'
 title: 'Next 24 Hours Forecast'
 location_id: '441430'  # Your location ID
 ```
@@ -33,14 +33,14 @@ location_id: '441430'  # Your location ID
 
 | Name | Type | Default | Description |
 |------|------|---------|-------------|
-| type | string | `custom:meteofrance-weather-card` | The type of the card |
+| type | string | `custom:24h-meteofrance` | The type of the card |
 | title | string | `Next 24 Hours Forecast` | Title of the card |
 | location_id | string | `441430` | Your Météo France location ID |
 
 ## Example
 
 ```yaml
-type: 'custom:meteofrance-weather-card'
+type: 'custom:24h-meteofrance'
 title: 'Weather Forecast'
 location_id: '441430'
 ```

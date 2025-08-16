@@ -128,5 +128,5 @@ const ot=t=>e=>"function"==typeof e?((t,e)=>(customElements.define(t,e),e))(t,e)
           ${this.data?D`<div class="refresh-button" @click=${this.fetchData}>↻ Refresh</div>`:""}
         </div>
       </ha-card>
-    `}};t([at()],dt.prototype,"hass",void 0),t([at()],dt.prototype,"config",void 0),t([at()],dt.prototype,"data",void 0),t([at()],dt.prototype,"error",void 0),t([at()],dt.prototype,"loading",void 0),dt=t([ot("meteofrance-weather-card")],dt);let ct=class extends rt{static getStub(){return{type:"custom:meteofrance-weather-card",title:"Météo France Weather",location_id:"441430"}}};ct=t([ot("meteofrance-weather-card-editor")],ct),customElements.define("meteofrance-weather-card-editor",ct);
-//# sourceMappingURL=meteofrance-weather-card.js.map
+    `}};t([at()],dt.prototype,"hass",void 0),t([at()],dt.prototype,"config",void 0),t([at()],dt.prototype,"data",void 0),t([at()],dt.prototype,"error",void 0),t([at()],dt.prototype,"loading",void 0),dt=t([ot("24h-meteofrance")],dt);let ct=class extends rt{static getStub(){return{type:"custom:meteofrance-weather-card",title:"Météo France Weather",location_id:"441430"}}};ct=t([ot("meteofrance-weather-card-editor")],ct),customElements.define("meteofrance-weather-card-editor",ct);
+//# sourceMappingURL=24h-meteofrance.js.map
