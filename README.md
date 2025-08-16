@@ -47,7 +47,7 @@ location_id: '441430'
 
 ## Screenshots
 
-![Example screenshot of the card](https://example.com/screenshot.png)
+![Example screenshot of the card](https://github.com/Petititi/meteofrance-weather-card/raw/master/screenshot.png)
 
 ## Development
 

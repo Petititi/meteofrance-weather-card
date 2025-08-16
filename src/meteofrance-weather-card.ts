@@ -7,6 +7,7 @@ import { LovelaceCardEditor } from 'custom-card-helpers';
 interface MeteofranceWeatherCardConfig extends LovelaceCardConfig {
   location_id?: string;
   title?: string;
+  type?: string;
 }
 
 interface WeatherData {
@@ -23,7 +24,7 @@ interface WeatherData {
 }
 
 @customElement('meteofrance-weather-card')
-class MeteofranceWeatherCard extends LitElement implements LovelaceCard {
+class MeteofranceWeatherCard extends LitElement {
   @property() public hass!: HomeAssistant;
   @property() public config!: MeteofranceWeatherCardConfig;
   @property() private data: WeatherData | null = null;
@@ -223,7 +224,8 @@ class MeteofranceWeatherCard extends LitElement implements LovelaceCard {
   }
 }
 
-class MeteofranceWeatherCardEditor extends LovelaceCardEditor {
+@customElement('meteofrance-weather-card-editor')
+class MeteofranceWeatherCardEditor extends LitElement {
   static getStub(): MeteofranceWeatherCardConfig {
     return {
       type: 'custom:meteofrance-weather-card',
